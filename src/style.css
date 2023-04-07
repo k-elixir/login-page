@@ -1,0 +1,9 @@
+input {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button {
+    background-color: #5F7779 !important;
+    color: #E6DED0 !important;
+}
