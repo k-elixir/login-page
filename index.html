@@ -16,55 +16,96 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/9ad2148236.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Login page</title>
   </head>
   <body class="ms-5 me-5">
-    <div class="row">
-      <div class="col-8">
-        <img
-          src="d15e199ef0a590e4acc59d650c341b7e.jpg"
-          alt="painting from nature"
-        />
-      </div>
-      <div class="col-3 pt-5 mt-5">
-        <h1 class="text-center">Log in</h1>
-        <form>
-          <div class="mb-3 mt-5">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
+    <div class="pt-5 mt-5 login-form">
+      <!-- <h1 class="text-center mt-1">Log in</h1>
+      <form>
+        <div class="mb-3 mt-5">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label m-1" for="exampleCheck1"
+            >Remember me</label
+          >
+        </div>
+        <button type="submit" class="form-control">Login</button>
+        <hr />
+        <div class="text-center">
+          <a href="google.com">
+            <img src="./icons8-google-500.png" alt="Google icon" width="50px" />
+          </a>
+        </div>
+        <br>
+        <div class="additional-link">
+          <div><a href="">Forgotten your login info?</a></div>
+          <br>
+          No account? <a href="">Create one!</a>
+        </div>
+      </form> -->
+    </div>
+
+    <div class="pt-5 mt-5 sign-up">
+      <h1 class="text-center mt-1">Create new account</h1>
+      <form>
+        <div class="row">
+          <div class="col mb-3 mt-5">
+            <input type="text" class="form-control" placeholder="First name" />
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-              >Password</label
-            >
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-            />
+          <div class="col mb-3 mt-5">
+            <input type="text" class="form-control" placeholder="Last name" />
           </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label m-1" for="exampleCheck1"
-              >Remember me</label
-            >
-          </div>
-          <button type="submit" class="form-control">Login</button>
-          <hr />
-          <span> login with Google</span>
-        </form>
-      </div>
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="E-mail address"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Create password"
+          />
+        </div>
+        <button type="submit" class="form-control mt-5 p-2">
+          Create account
+        </button>
+        <hr />
+        <div class="text-center">
+          <a href="google.com">
+            <img src="./icons8-google-500.png" alt="Google icon" width="50px" />
+          </a>
+        </div>
+        <br />
+        <div class="additional-link">
+          Already have an account?<a href="/"> Sign in</a>
+        </div>
+      </form>
     </div>
   </body>
 </html>

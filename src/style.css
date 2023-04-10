@@ -1,9 +1,39 @@
+:root {
+  --first-color: #f4eeff;
+  --second-color: #dcd6f7;
+  --third-color: #a6b1e1;
+  --fourth-color: #424874;
+}
+
 input {
-    padding: 10px;
-    border-radius: 30px;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 button {
-    background-color: #5F7779 !important;
-    color: #E6DED0 !important;
+  background-color: var(--fourth-color) !important;
+  border: var(--fourth-color) !important;
+  color: var(--third-color) !important;
+}
+button:hover {
+  background-color: var(--third-color) !important;
+  color: #424874 !important;
+  transition: 0.25s ease-in-out !important;
+}
+body {
+  color: var(--first-color) !important;
+  background: top -190px left no-repeat url("../Picsart_23-04-10_17-18-19-925.jpg");
+  background-size: 1540px;
+}
+body .login-form,
+.sign-up {
+  position: absolute;
+  right: 200px;
+  width: 400px;
+}
+.additional-link {
+  font-size: 13px;
+}
+a {
+  color: var(--third-color) !important;
 }
