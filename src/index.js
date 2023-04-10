@@ -1,11 +1,10 @@
-// hide login page when clicked on create page link
-
-const link = document.querySelector("a#create-account-link");
+// hide signin page when clicked on create page link
 
 function hideForm() {
-  const signinForm = document.querySelector("div#form");
-  const signup = document.querySelector("div.sign-up");
+  let signinForm = document.querySelector("div#form");
+  let signup = document.querySelector("div.sign-up");
   signinForm.style.display = "none";
   signup.style.display = "block";
 }
-link.addEventListener("click".hideForm);
+let link = document.querySelector("a#create-account-link");
+link.addEventListener("click", hideForm);
