@@ -2,7 +2,7 @@
 
 function hideForm() {
   let signinForm = document.querySelector("div#form");
-  let signup = document.querySelector("div.sign-up");
+  let signup = document.querySelector(".sign-up");
   signinForm.style.display = "none";
   signup.style.display = "block";
 }
