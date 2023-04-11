@@ -4,12 +4,18 @@
   --third-color: #a6b1e1;
   --fourth-color: #424874;
 }
-
-input {
-  padding: 10px;
-  border-radius: 30px;
+a {
+  color: var(--third-color) !important;
 }
-
+body {
+  color: var(--first-color) !important;
+  background: top -200px left no-repeat url("../Picsart_23-04-10_17-18-19-925.jpg");
+  background-size: 1600px;
+}
+body .signin-form,
+.sign-up {
+  width: 400px;
+}
 button {
   background-color: var(--fourth-color) !important;
   border: var(--fourth-color) !important;
@@ -20,25 +26,9 @@ button:hover {
   color: #424874 !important;
   transition: 0.25s ease-in-out !important;
 }
-
-body .sign-up {
-  display: none;
-}
-
-body {
-  color: var(--first-color) !important;
-  background: top -190px left no-repeat url("../Picsart_23-04-10_17-18-19-925.jpg");
-  background-size: 1540px;
-}
-body .signin-form,
 .sign-up {
-  position: absolute;
-  right: 200px;
-  width: 400px;
+  display: none;
 }
 .additional-link {
   font-size: 13px;
-}
-a {
-  color: var(--third-color) !important;
 }

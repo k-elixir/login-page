@@ -1,7 +1,7 @@
 // hide signin page when clicked on create page link
 
 function hideForm() {
-  let signinForm = document.querySelector("div#form");
+  let signinForm = document.querySelector("div.signin-form");
   let signup = document.querySelector(".sign-up");
   signinForm.style.display = "none";
   signup.style.display = "block";
