@@ -12,10 +12,7 @@ body {
   background: top -200px left no-repeat url("../Picsart_23-04-10_17-18-19-925.jpg");
   background-size: 1600px;
 }
-body .signin-form,
-.sign-up {
-  width: 400px;
-}
+
 button {
   background-color: var(--fourth-color) !important;
   border: var(--fourth-color) !important;
@@ -31,4 +28,27 @@ button:hover {
 }
 .additional-link {
   font-size: 13px;
+}
+@media (min-width: 992px) {
+  body .signin-form,
+  .sign-up {
+    width: 400px;
+    position: fixed;
+    right: 100px;
+  }
+}
+@media (min-width: 420px) and (max-width: 991px) {
+  body .signin-form,
+  .sign-up {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 419px) {
+  body .signin-form,
+  .sign-up {
+    width: 300px;
+    margin: auto;
+  }
 }
